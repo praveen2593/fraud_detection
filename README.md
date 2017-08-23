@@ -1,0 +1,2 @@
+# fraud_detection
+Built machine learning model to predict fraud events based on event details submitted. Compared the performance of Logistic Regression, Random Forest and AdaBoost Classifier Algorithms by fine tuning the model to maximize profit using cost benefit matrix. Developed a web app using Flask, Jinja and CSS to predict the risk level of live data with a recall score of 96% and precision of 85% 
