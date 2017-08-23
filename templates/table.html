@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <!-- Custom styles for this template -->
+      <link href="static/css/table_style_4.css" rel="stylesheet">
+
+</head>
+
+<body>
+<table align="center">
+  <thead>
+    <th align="center">Event Name</th>
+    <th align="center">Probability of Fraud</th>
+    <th align="center">Risk Level</th>
+  </thead>
+  <tbody>
+    {% for element in preds%}
+      <tr>
+        <td>{{ element['name'] }}</td>
+        <td align="right">{{ element['probability'] }}</td>
+        <td align="right">{{ element['fraud']}}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+</body>
+</html>
