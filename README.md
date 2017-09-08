@@ -19,5 +19,5 @@ Due to confidentiality, the data is not made public. The python code is made ava
 
 
 ## Credits
-This project would not be possible without the efforts of my fellow teammaates Rosina Norton, Yuwei Kelly Peng, Kenny Durell.
+This project would not be possible without the efforts of my fellow teammates Rosina Norton, Yuwei Kelly Peng, Kenny Durell.
 
