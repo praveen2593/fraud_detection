@@ -18,7 +18,7 @@ Since there was a cost associated with wrong predictions, we wanted our recall r
 We initially built a logistic regression model with 3 features (chose based on our domain knowledge). Using this as our baseline model, following the CRISP-DM methodology, we developed multiple Random Forest, Logistic Regression, AdaBoost classifier, KNN models and compared with each other. We iterated over by adding new features to the model and chose the model which performed best. At the end, the random forest model was performing better than the rest.
 
 ## Web App Deployment
-We created a live web app using Flask, Jinja and CSS which we then deployed on an Amazon EC2 instance. We connected with Galvanize's Heroku app which provided live data. We then stored the data on a Mongo Database and used a pickled model to predict the risk level on the air. The model was able to predict within a few seconds. A static version of the website is hosted [here]('frauddetection.praveenraman.com'). 
+We created a live web app using Flask, Jinja and CSS which we then deployed on an Amazon EC2 instance. We connected with Galvanize's Heroku app which provided live data. We then stored the data on a Mongo Database and used a pickled model to predict the risk level on the air. The model was able to predict within a few seconds. A static version of the website is hosted [here](//frauddetection.praveenraman.com). 
 
 ## Result and Inference
 The final random forest model had a recall score of 96%, and precision of 85%. Through this project we understood how to use Flask and AWS effectively. We also had a dilemma while choosing the model, whether to prefer interpretability over performance. 
